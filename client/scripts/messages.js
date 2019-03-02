@@ -1,6 +1,13 @@
 var Messages = {
 //create a function that uses a template, which inputs a data in parse
-    
+    // var messages = $('#message').text;
+    Parse.readAll(data) => {
+        data.results.forEach(function(item) {
+            var textMessage = item.text;
+            ``
+        })
+    }
+
 
 };
 

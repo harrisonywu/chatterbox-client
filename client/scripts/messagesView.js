@@ -13,7 +13,10 @@ var MessagesView = {
   },
 
   render: function() { //should render all messages
-    // if this is true, then probably implement the template loop?
+    //we want to grab all data from model
+    var messages = Messages
+    //we want to call renderMessage function on each message within the model
+
   },
 
   //create our own renderMessage function that takes in input of message (only one mesesage)

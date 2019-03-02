@@ -8,7 +8,7 @@ var RoomsView = {
 
   renderRoom: function(roomName) {
     //append to the select element in index.html
-    $(RoomsView.$select).append(roomName);
+    // $(RoomsView.$select).append(roomName);
   }
 };
 
