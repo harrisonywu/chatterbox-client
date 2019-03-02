@@ -8,8 +8,8 @@ var Messages = {
 // So what are the keys?
 // We're guessing the values are the messages that we create using the template function
 
-    var t1 = _.template("Hello <%=user%>!");  // compile
-    t1({ user: "<Jane>" })  
+var t1 = _.template('Hello <%=user%>!');//compile
+t1({ user: '<Jane>' });
 // var t2 = _.template("Today is <%=day%>!");
 // t2({day: "<Friday>"})
 
